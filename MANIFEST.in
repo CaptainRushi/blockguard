@@ -1,0 +1,9 @@
+include blockguard/data/*.csv
+include blockguard/data/*.pkl
+include README.md
+include LICENSE
+include install.sh
+include install.ps1
+include run.sh
+recursive-include blockguard *.py
+recursive-include tests *.py
